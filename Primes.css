@@ -1,0 +1,274 @@
+/*** MEDIA TYPES ***/
+	/* http://www.w3schools.com/css/css_mediatypes.asp */
+	@media all{} 				/* Used for all media type devices */
+	@media aural{}				/* Used for speech and sound synthesizers */
+	@media braille{}			/* Used for braille tactile feedback devices */
+	@media embossed{}			/* Used for paged braille printers */
+	@media handheld{} 			/* Used for small or handheld devices */
+	@media print{} 				/* Used for printers */
+	@media projection{} 		/* Used for projected presentations, like slides */
+	@media screen{} 			/* Used for computer screens */
+	@media tty{} 				/* Used for media using a fixed-pitch character grid, like teletypes and terminals */
+	@media tv{} 				/* Used for television-type devices */
+
+/*** ALIGN ELEMENTS***/
+	/* http://www.w3schools.com/css/css_align.asp */
+		/* In your HTML, type ".center" after an element to center align it. */
+			.center {
+				margin-left: auto;
+				margin-right: auto;
+				width:;					/* OPTIONAL: Set width here if you didn't set it for the element. */
+			}
+		
+		/* In your HTML, type ".right_position" after an element to right align it. */
+			.right_position {
+				position: absolute;
+				right: 0px;
+			}
+		
+		/* In your HTML, type ".right_float" after an element to right float it. */
+			.right_float {
+				float: right;
+			}
+		
+		/* In your HTML, type ".left_position" after an element to left align it. */
+			.left_position {
+				position: absolute;
+				left: 0px;
+			}
+		
+		/* In your HTML, type ".left_float" after an element to left float it. */
+			.left_float {
+				float: left;
+			}
+			
+/*** ELEMENTS ***/
+div{
+	/*** ALIGN ***/
+		/* http://www.w3schools.com/css/css_align.asp */
+			/* See code above */
+				/* In your HTML, type ".center" after an element to center align it. */
+				/* In your HTML, type ".right_position" after an element to right align it. */
+				/* In your HTML, type ".right_float" after an element to right float it. */
+				/* In your HTML, type ".left_position" after an element to left align it. */
+				/* In your HTML, type ".left_float" after an element to left float it. */
+			
+				
+	/*** BACKGROUNDS ***/
+		/* http://www.w3schools.com/css/css_background.asp */
+		background:; 					/* background: color position/size repeat origin clip attachment image|initial|inherit; 				/*Sets all the background properties in one declaration */
+			background-color:; 				/* background-color: color|transparent|initial|inherit; 												/*Sets the background color of an element */
+			background-position:; 			/* background-position: left top,left center,left bottom,right top,right center,right bottom,center top,center center,center bottom|x% y%|xpos ypos|initial|inherit; 	/*Sets the starting position of a background image */
+			background-size:; 				/* background-size: auto|length|cover|contain|initial|inherit; 											/* Specifies the size of the background images	*/
+			background-repeat:; 			/* background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit; 								/*Sets how a background image will be repeated */
+			background-origin:; 			/* background-origin: padding-box|border-box|content-box|initial|inherit; 								/* Specifies the positioning area of the background images */
+			background-clip:; 				/* background-clip: border-box|padding-box|content-box|initial|inherit; 								/* Specifies the painting area of the background images */
+			background-attachment:; 		/* background-attachment: color position/size repeat origin clip attachment image|initial|inherit; 		/*Sets whether a background image is fixed or scrolls with the rest of the page */
+			background-image:; 				/* background-image: url|none|initial|inherit; 															/*Sets the background image for an element */
+
+	
+	/*** TEXT ***/
+		/* http://www.w3schools.com/css/css_text.asp */
+		color:; 				/* color: color|initial|inherit; 																		/* Sets the color of text */
+		direction:; 			/* direction: ltr|rtl|initial|inherit; 																	/* Specifies the text direction/writing direction */
+		letter-spacing:;		/* letter-spacing: normal|length|initial|inherit; 														/* Increases or decreases the space between characters in a text */
+		line-height:; 			/* line-height: normal|number|length|initial|inherit; 													/* Sets the line height */
+		text-align:; 			/* text-align: left|right|center|justify|initial|inherit; 												/* Specifies the horizontal alignment of text */
+		text-decoration:; 		/* text-decoration: none|underline|overline|line-through|initial|inherit; 								/* Specifies the decoration added to text */
+		text-indent:; 			/* text-indent: length|initial|inherit; 																/* Specifies the indentation of the first line in a text-block */
+		text-shadow:; 			/* text-shadow: h-shadow v-shadow blur color|none|initial|inherit; 										/* Specifies the shadow effect added to text */
+		text-transform:; 		/* text-transform: none|capitalize|uppercase|lowercase|initial|inherit; 								/* Controls the capitalization of text */
+		unicode-bidi:; 			/* unicode-bidi: normal|embed|bidi-override|intitial|inherit; 											/* Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document */
+		vertical-align:; 		/* vertical-align: baseline|length|sub|super|top|text-top|middle|bottom|text-bottom|initial|inherit; 	/* Sets the vertical alignment of an element */
+		white-space:; 			/* white-space: normal|nowrap|pre|pre-line|pre-wrap|initial|inherit; 									/* Specifies how white-space inside an element is handled */
+		word-spacing:; 			/* word-spacing: normal|length|initial|inherit; 														/* Increases or decreases the space between words in a text */
+
+	
+	/*** FONTS ***/
+		/* http://www.w3schools.com/css/css_font.asp */
+		font:; 					/* font:; 				/*Sets all the font properties in one declaration */
+			font-family:; 			/* font-family:; 		/*Specifies the font family for text */
+			font-size:; 			/* font-size:; 			/*Specifies the font size of text */
+			font-style:; 			/* font-style:; 		/*Specifies the font style for text */
+			font-variant:; 			/* font-variant:; 		/*Specifies whether or not a text should be displayed in a small-caps font */
+			font-weight:; 			/* font-weight:; 		/*Specifies the weight of a font */
+	
+	
+	/*** BOX MODEL ***/
+		/* http://www.w3schools.com/css/css_boxmodel.asp */
+	
+	/*** BORDER ***/
+		/* http://www.w3schools.com/css/css_border.asp */
+			border:; 						/* border:width style color; 																					/* Sets all the border properties in one declaration */
+				border-width:; 					/* border-width: medium|thin|thick|length|initial|inherit; 														/* Sets the width of the four borders */
+				border-style:; 					/* border-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit; 				/* Sets the style of the four borders */
+				border-color:; 					/* border-color: color|transparent|initial|inherit; 															/* Sets the color of the four borders */
+
+			/* Use these border statements for special cases. Otherwise, leave blank. */
+				border-bottom:; 				/* border-bottom: border-width border-style border-color|initial|inherit; 										/* Sets all the bottom border properties in one declaration */
+					border-bottom-width:; 			/* border-bottom-width: medium|thin|thick|length|initial|inherit; 												/* Sets the width of the bottom border */
+					border-bottom-style:; 			/* border-bottom-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;; 		/* Sets the style of the bottom border */
+					border-bottom-color:; 			/* border-bottom-color: color|transparent|initial|inherit; 														/* Sets the color of the bottom border */
+				
+					
+				border-left:; 					/* border-left: border-width border-style border-color|initial|inherit; 										/* Sets all the left border properties in one declaration */
+					border-left-width:; 			/* border-left-width: medium|thin|thick|length|initial|inherit; 												/* Sets the width of the left border */
+					border-left-style:; 			/* border-left-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;; 		/* Sets the style of the left border */
+					border-left-color:; 			/* border-left-color: color|transparent|initial|inherit; 														/* Sets the color of the left border */
+					
+					
+				border-right:; 					/* border-right: border-width border-style border-color|initial|inherit; 										/* Sets all the right border properties in one declaration */
+					border-right-width:; 			/* border-right-width: medium|thin|thick|length|initial|inherit; 												/* Sets the width of the right border */
+					border-right-style:; 			/* border-right-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;; 		/* Sets the style of the right border */
+					border-right-color:; 			/* border-right-color: color|transparent|initial|inherit; 														/* Sets the color of the right border */
+					
+					
+				border-top:; 					/* border-top: border-width border-style border-color|initial|inherit; 											/* Sets all the top border properties in one declaration */
+					border-top-width:; 				/* border-top-width: medium|thin|thick|length|initial|inherit; 													/* Sets the width of the top border */
+					border-top-style:; 				/* border-top-style: none|hidden|dotted|dashed|solid|double|groove|ridge|inset|outset|initial|inherit;; 		/* Sets the style of the top border */
+					border-top-color:; 				/* border-top-color: color|transparent|initial|inherit; 														/* Sets the color of the top border */
+	
+	
+	/*** OUTLINE ***/
+		/* http://www.w3schools.com/css/css_outline.asp */
+		outline:; 						/* outline:outline-color|outline-style|outline-width|inherit; 							/* Sets all the outline properties in one declaration */
+			outline-color:; 				/* outline-color:color_name|hex_number|rgb_number|invert|inherit; 						/* Sets the color of an outline */
+			outline-style:; 				/* outline-style:none|dotted|dashed|solid|double|groove|ridge|inset|outset|inherit; 	/* Sets the style of an outline */
+			outline-width:; 				/* outline-width:thin|medium|thick|length|inherit; 										/* Sets the width of an outline */
+
+	
+	/*** MARGIN ***/
+		/* http://www.w3schools.com/css/css_margin.asp */
+			margin:; 					/* margin: top right bottom left; */
+				margin-bottom:; 			/* margin-bottom: auto|length|percent|inherit; */
+				margin-left:; 				/* margin-left: auto|length|percent|inherit;   */
+				margin-right:; 				/* margin-right: auto|length|percent|inherit;  */
+				margin-top:; 				/* margin-top: auto|length|percent|inherit;    */
+	
+	
+	/*** PADDING ***/
+		/* http://www.w3schools.com/css/css_padding.asp */
+			padding:; 					/* padding: top right bottom left; */
+				padding-bottom:; 			/* padding-bottom: length|percent; */
+				padding-left:; 				/* padding-left: length|percent;   */
+				padding-right:; 			/* padding-right: length|percent;  */
+				padding-top:; 				/* padding-top: length|percent;    */
+
+	
+	/*** DIMENSION ***/
+		/* http://www.w3schools.com/css/css_dimension.asp */
+			height:; 						/* height:auto|length|%|inherit; 		/* Sets the height of an element */
+			max-height:; 					/* max-height:auto|length|%|inherit; 	/* Sets the maximum height of an element */
+			max-width:; 					/* max-width:auto|length|%|inherit; 	/* Sets the maximum width of an element */
+			min-height:; 					/* min-height:auto|length|%|inherit; 	/* Sets the minimum height of an element */
+			min-width:; 					/* min-width:auto|length|%|inherit; 	/* Sets the minimum width of an element */
+			width:; 						/* width:auto|length|%|inherit; 		/* Sets the width of an element */
+
+	/*** DISPLAY ***/
+		/* http://www.w3schools.com/css/css_display_visibility.asp */
+			visibility:;					/* visibility: visible|hidden|collapse|initial|inherit; */
+			display:;						/* activate below by deleting the "/*" in front of the display format you prefer. */
+			/* display:inline; 					/* Default value. Displays an element as an inline element (like <span>) */
+			/* display:block; 					/* Displays an element as a block element (like <p>) */
+			/* display:flex; 					/* Displays an element as an block-level flex container. New in CSS3 */
+			/* display:inline-block; 			/* Displays an element as an inline-level block container. The inside of this block is formatted as block-level box, and the element itself is formatted as an inline-level box */
+			/* display:inline-flex; 			/* Displays an element as an inline-level flex container. New in CSS3 */
+			/* display:inline-table; 			/* The element is displayed as an inline-level table */
+			/* display:list-item; 				/* Let the element behave like a <li> element */
+			/* display:run-in; 					/* Displays an element as either block or inline, depending on context */
+			/* display:table; 					/* Let the element behave like a <table> element */
+			/* display:table-caption; 			/* Let the element behave like a <caption> element */
+			/* display:table-column-group; 		/* Let the element behave like a <colgroup> element */
+			/* display:table-header-group; 		/* Let the element behave like a <thead> element */
+			/* display:table-footer-group; 		/* Let the element behave like a <tfoot> element */
+			/* display:table-row-group; 		/* Let the element behave like a <tbody> element */
+			/* display:table-cell; 				/* Let the element behave like a <td> element */
+			/* display:table-column; 			/* Let the element behave like a <col> element */
+			/* display:table-row; 				/* Let the element behave like a <tr> element */
+			/* display:none; 					/* The element will not be displayed at all (has no effect on layout) */
+			/* display:initial; 				/* Sets this property to its default value. Read about initial */
+			/* display:inherit; 				/* Inherits this property from its parent element. Read about inherit */
+
+	
+	/*** POSITIONING ***/
+		/* http://www.w3schools.com/css/css_positioning.asp */
+			bottom:; 		/* bottom:auto|length|%|inherit; 						/* Sets the bottom margin edge for a positioned box */
+			clip:; 			/* clip:shape|auto|inherit; 							/* Clips an absolutely positioned element */
+			cursor:; 		/* cursor:url|auto|crosshair|default|pointer|move|e-resize|ne-resize|nw-resize|n-resize|se-resize|sw-resize|s-resize|w-resize|text|wait|help; 	/* Specifies the type of cursor to be displayed */
+			left:; 			/* left:auto|length|%|inherit; 							/* Sets the left margin edge for a positioned box */
+			overflow:;		/* overflow:auto|hidden|scroll|visible|inherit;			/* Specifies what happens if content overflows an element's box */
+			position:; 		/* position:absolute|fixed|relative|static|inherit; 	/* Specifies the type of positioning for an element */
+			right:; 		/* right:auto|length|%|inherit; 						/* Sets the right margin edge for a positioned box */
+			top:; 			/* top:auto|length|%|inherit; 							/* Sets the top margin edge for a positioned box */
+			z-index:; 		/* z-index:number|auto|inherit; 						/* Sets the stack order of an element */
+	
+	
+	/*** FLOATING ***/
+		/* http://www.w3schools.com/css/css_float.asp */
+			clear:; 		/* clear: left|right|both|none|inherit; */
+			float:;			/* float: left|right|none|inherit; */
+
+			
+	/*** IMAGE OPACITY ***/
+		/* http://www.w3schools.com/css/css_image_transparency.asp */
+		    opacity:;					/* opacity: 0.4; */
+			filter:;					/* filter: alpha(opacity=40); 			/* For IE8 and earlier */
+}
+	
+/*** PSEUDO-CLASS ***/
+	/* http://www.w3schools.com/css/css_pseudo_classes.asp */
+		/* selector:link  				/* EXAMPLE: a:link{ } 				/* Selects all unvisited links */
+		/* selector:visited  			/* EXAMPLE: a:visited{ } 			/* Selects all visited links */
+		/* selector:active  			/* EXAMPLE: a:active{ } 			/* Selects the active link */
+		/* selector:hover  				/* EXAMPLE: a:hover{ } 				/* Selects links on mouse over */
+		/* selector:focus  				/* EXAMPLE: input:focus{ } 			/* Selects the input element which has focus */
+		/* selector::first-letter  		/* EXAMPLE: p::first-letter{ } 		/* Selects the first letter of every <p> element */
+		/* selector::first-line  		/* EXAMPLE: p::first-line{ } 		/* Selects the first line of every <p> element */
+		/* selector:first-child  		/* EXAMPLE: p:first-child{ } 		/* Selects every <p> elements that is the first child of its parent */
+		/* selector::before  			/* EXAMPLE: p::before{ } 			/* Insert content before every <p> element */
+		/* selector::after  			/* EXAMPLE: p::after{ } 			/* Insert content after every <p> element */
+		/* selector:lang(language)  	/* EXAMPLE: p:lang(it){ } 			/* Selects every <p> element with a lang attribute value starting with "it" */
+
+		
+/*** PSEUDO-ELEMENT ***/
+	/* http://www.w3schools.com/css/css_pseudo_elements.asp */
+		/* selector:link  				/* EXAMPLE: a:link{ } 				/* Selects all unvisited links */
+		/* selector:visited  			/* EXAMPLE: a:visited{ }			/* Selects all visited links */
+		/* selector:active  			/* EXAMPLE: a:active{ } 			/* Selects the active link */
+		/* selector:hover  				/* EXAMPLE: a:hover{ } 				/* Selects links on mouse over */
+		/* selector:focus  				/* EXAMPLE: input:focus{ } 			/* Selects the input element which has focus */
+		/* selector::first-letter  		/* EXAMPLE: p::first-letter{ } 		/* Selects the first letter of every <p> element */
+		/* selector::first-line  		/* EXAMPLE: p::first-line{ } 		/* Selects the first line of every <p> element */
+		/* selector:first-child  		/* EXAMPLE: p:first-child{ } 		/* Selects every <p> elements that is the first child of its parent */
+		/* selector::before  			/* EXAMPLE: p::before{ } 			/* Insert content before every <p> element */
+		/* selector::after  			/* EXAMPLE: p::after{ } 			/* Insert content after every <p> element */
+		/* selector:lang(language)  	/* EXAMPLE: p:lang(it){ } 			/* Selects every <p> element with a lang attribute value starting with "it" */
+
+/*** ATTR SEELCTORS ***/
+	/* http://www.w3schools.com/css/css_attribute_selectors.asp */
+
+/*** COMBINATORS ***/
+	/* http://www.w3schools.com/css/css_combinators.asp */
+
+/*** IMAGE GALLERY ***/
+	/* http://www.w3schools.com/css/css_image_gallery.asp */
+	
+/*** IMAGE SPRITES ***/
+	/* http://www.w3schools.com/css/css_image_sprites.asp */
+
+/*** LINKS ***/
+	/* http://www.w3schools.com/css/css_link.asp */
+	
+/*** LISTS ***/
+	/* http://www.w3schools.com/css/css_list.asp */
+
+/*** NAVIGATION BAR ***/
+	/* http://www.w3schools.com/css/css_navbar.asp */
+
+/*** TABLES ***/
+	/* http://www.w3schools.com/css/css_table.asp */
+	
+
+	
+
+		
